@@ -15,14 +15,13 @@ body{
     background-color:#fff;
     border:solid 1px;
     border-radius:15px;
-    height: 40px;
+    padding: 0px 1px 1px 0px;
     width:600px;
 }
 .form-inline .form-control{
     margin-left: 10px;
     width: 540px;
-    border:none;
-    
+    border:none;    
 }
 
 .search-icon {
@@ -33,4 +32,7 @@ body{
     width:32px;
     font-weight:bold;
     background:#fff;
+}
+.barra{
+    display: inline;
 }
