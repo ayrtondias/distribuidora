@@ -12,6 +12,8 @@
 </head>
 <body>
     <div class="topo">
+      <img class="logo" src="img/dp.png">
+      
         <div class="search-box">
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
@@ -22,9 +24,9 @@
   
 
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FB7226;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFF112;">
   <div class="dropdown">
-    <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #FB7226; border: none;">
+    <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #FFF112; border: none; color:black">
       <span class="navbar-toggler-icon"></span>
       CATEGORIAS
     </button>
