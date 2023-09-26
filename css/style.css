@@ -22,11 +22,11 @@ body{
     border:solid 1px;
     border-radius:15px;
     padding: 0px 1px 1px 0px;
-    width:600px;
+    width: 500px;;
 }
 .form-inline .form-control{
     margin-left: 10px;
-    width: 540px;
+    width: 490px;
     border:none;    
 }
 
@@ -72,4 +72,33 @@ body{
     margin-top: 30px;
     width: 260px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
+.imagem{
+    background: #0D90C5;
+    width: 225px;
+    height: 225px;
+    margin-top: 10px;
+}
+.card_text{
+position: absolute;
+width: 216px;
+height: 34px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+}
+
+.descricao{
+    width: 260px;
+}
+
+
