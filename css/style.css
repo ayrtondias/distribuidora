@@ -26,7 +26,7 @@ body{
 }
 .form-inline .form-control{
     margin-left: 10px;
-    width: 490px;
+    width: 440px;
     border:none;    
 }
 
@@ -81,24 +81,41 @@ body{
     background: #0D90C5;
     width: 225px;
     height: 225px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .card_text{
-position: absolute;
-width: 216px;
-height: 34px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-
-color: #000000;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 17px;
+    display: -webkit-box;
 }
 
-.descricao{
-    width: 260px;
+.avaliacao{
+    display: flex;
+    padding: 0px 0px 0px 0px; 
 }
+.star-icon{
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 32px;
+}
+.star-icon::before{
+    content: "\2605";
+}
+.star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+}
+.avaliacao:hover .star-icon::before{
+    content: "\2605";
+}
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
+
 
 

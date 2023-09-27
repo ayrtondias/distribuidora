@@ -9,6 +9,28 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".wish-icon i").click(function(){
+          $(this).toggleClass("fa-heart fa-heart-o");
+        });
+      });
+      
+      var stars = document.querySelectorAll('.star-icon');
+                  
+      document.addEventListener('click', function(e){
+        var classStar = e.target.classList;
+        if(!classStar.contains('ativo')){
+          stars.forEach(function(star){
+            star.classList.remove('ativo');
+          });
+          classStar.add('ativo');
+          console.log(e.target.getAttribute('data-avaliacao'));
+        }
+      });
+    </script>
+
 </head>
 <body>
     <div class="topo">
@@ -90,16 +112,25 @@
   </ul>
 </div>
 
-<div class="card">
-  <img class="imagem" src=".../100px180/" alt="Imagem de capa do card">
-  <label class="card_text">Nome do Produto</label>
+             
 
+<div class="card">
+<span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+  <img class="imagem" src=".../100px180/" alt="Imagem do card">
+  <div class="descricao">
+    <label class="card_text">Nome do Produto</label>
+      <ul class="avaliacao">
+          <li class="star-icon ativo" data-avaliacao="1"></li>
+          <li class="star-icon" data-avaliacao="2"></li>
+          <li class="star-icon" data-avaliacao="3"></li>
+          <li class="star-icon" data-avaliacao="4"></li>
+          <li class="star-icon" data-avaliacao="5"></li>
+      </ul>
   </div>
 
-
+  </div>
 </div>
 </div>
-
     
 </body>
 </html>
