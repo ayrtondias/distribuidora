@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    width: 100vw;
+    background: #D9D9D9;
+
+}
+.topo{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFF112;
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+}
+.menu_lateral{
+    position: absolute;
+    width: 300px;
+    height: 790px;
+}
+.Box-menu{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+
+    width: 280px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #fff;
+    border-color: #0D90C5;
+    font-size: 28px;
+}
+.tela-principal{
+    display: flex;
+}
+.tela-info{
+    width: 1000px;
+    height: 790px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.linha{
+    width: 950px;
+    border: 1px solid #D9D9D9;
+}
+
+
