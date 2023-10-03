@@ -29,7 +29,19 @@
 
             <div class="form-group mb-2">
                 <label for="">Nome</label>
-                <input type="text" class="form-control" >
+                <input type="text" class="form-control" name="nome" style="width: 400px;">
+                <label for="">Marca</label>
+                <input type="text" class="form-control" name="marca" style="width: 400px;">
+                <div >
+                    <label for="">Preço de Padrão</label>
+                    <input type="text" class="form-control" name="preco" style="width: 100px;">
+                    <label for="">Preço com Venda</label>
+                    <input type="text" class="form-control" name="preco-desc" style="width: 100px;">
+                </div>
+                <label for="">Unidade de Medida (litros, metros, unidades)</label>
+                <input type="text" class="form-control" name="medida" style="width: 400px;">
+
+                
             </div>
 
         </div>

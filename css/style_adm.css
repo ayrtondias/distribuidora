@@ -50,5 +50,8 @@ body{
     width: 950px;
     border: 1px solid #D9D9D9;
 }
+.form-control{
+    width: 400px;
+}
 
 
