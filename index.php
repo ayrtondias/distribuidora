@@ -94,42 +94,40 @@
 <h1 class="cat">PISOS E REVESTIMENTOS</h1>
 
 <div class="corpo"> 
-<div class="subCat">
-  <ul class="textop">Sub-categorias
+  <div class="subCat">
+    <ul class="textop">Sub-categorias
 
-    <li class="texcorpo">Porcelanato ()</li>
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-  </ul>
-  <br>
-  <ul class="textop">Marcas
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-    <li class="texcorpo"> ()</li>
-  </ul>
-</div>
+      <li class="texcorpo">Porcelanato ()</li>
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+    </ul>
+    <br>
+    <ul class="textop">Marcas
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+      <li class="texcorpo"> ()</li>
+    </ul>
+  </div>              
 
-             
+  <div class="card">
+  <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+    <img class="imagem" src=".../100px180/" alt="Imagem do card">
+    <div class="descricao">
+      <label class="card_text">Nome do Produto</label>
+        <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+        </ul>
+    </div>
 
-<div class="card">
-<span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
-  <img class="imagem" src=".../100px180/" alt="Imagem do card">
-  <div class="descricao">
-    <label class="card_text">Nome do Produto</label>
-      <ul class="avaliacao">
-          <li class="star-icon ativo" data-avaliacao="1"></li>
-          <li class="star-icon" data-avaliacao="2"></li>
-          <li class="star-icon" data-avaliacao="3"></li>
-          <li class="star-icon" data-avaliacao="4"></li>
-          <li class="star-icon" data-avaliacao="5"></li>
-      </ul>
+    </div>
   </div>
-
-  </div>
-</div>
 </div>
     
 </body>

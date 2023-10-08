@@ -16,35 +16,54 @@
     </div>
     <div class="tela-principal">
         <div class="menu_lateral">
-            <div class="Box-menu">Novos pedidos</div>
-            <div class="Box-menu">Pedidos</div>
-            <div class="Box-menu">Cadastrar produtos</div>
-            <div class="Box-menu">Produtos</div>
-            <div class="Box-menu">Promoções</div>
+            <button class="Box-menu">Novos pedidos</button>
+            <button class="Box-menu">Pedidos</button>
+            <button class="Box-menu">Cadastrar produtos</button>
+            <button class="Box-menu">Produtos</button>
+            <button class="Box-menu">Promoções</button>
         </div>
 
         <div class="tela-info">
-            <h1>Cadastrar produtos</h1>
-            <hr class="linha">
+            <form action="">
+                <h1>Cadastrar produtos</h1>
+                <hr class="linha">
 
-            <div class="form-group mb-2">
-                <label for="">Nome</label>
-                <input type="text" class="form-control" name="nome" style="width: 400px;">
-                <label for="">Marca</label>
-                <input type="text" class="form-control" name="marca" style="width: 400px;">
-                <div >
-                    <label for="">Preço de Padrão</label>
-                    <input type="text" class="form-control" name="preco" style="width: 100px;">
-                    <label for="">Preço com Venda</label>
-                    <input type="text" class="form-control" name="preco-desc" style="width: 100px;">
+                <div class="div_tela" style="display: flex;">
+                    <div class="form-group mb-2">
+                        <label for="" class="lab">Nome</label>
+                        <input type="text" class="form-control" name="nome" style="width: 400px;">
+                        <label for="" class="lab">Marca</label>
+                        <input type="text" class="form-control" name="marca" style="width: 400px;">
+                        <div>
+                            <label for="" class="lab">Preço de Padrão</label>
+                            <input type="text" class="form-control" name="preco" style="width: 100px;">
+                            <label for="" class="lab">Preço com Venda</label>
+                            <input type="text" class="form-control" name="preco_desc" style="width: 100px;">
+                        </div>
+                        <label for="" class="lab">Unidade de Medida (litros, metros, unidades)</label>
+                        <input type="text" class="form-control" name="medida" style="width: 400px;">
+                        <label for="" class="lab">Preço com Venda</label>
+                        <textarea class="txt_area"></textarea>                
+                    </div>
+
+                    <div class="form-group mb-3" style="margin-left: 100px;">
+                        <label for="" class="lab">Codigo de Referência</label>
+                        <input type="text" class="form-control" name="codigo" style="width: 400px;">
+                        <label for="" class="lab">Categoria</label>
+                        <input type="text" class="form-control" name="categoria" style="width: 400px;">
+                        <label for="" class="lab">Sub-categoria</label>
+                        <input type="text" class="form-control" name="subCategoria" style="width: 400px;">
+                        <label for="" class="lab">Quantidade do estoque atual</label>
+                        <input type="text" class="form-control" name="estoque" style="width: 400px;">
+                        <label for="" class="lab">Dimenções</label>
+                        <input type="text" class="form-control" name="dimensao" style="width: 400px;">
+                        <label for="" class="lab">Imagens do Produto</label>
+                        <input type="text" class="form-control" name="imagemProd" style="width: 400px;">                                    
+                    </div>
                 </div>
-                <label for="">Unidade de Medida (litros, metros, unidades)</label>
-                <input type="text" class="form-control" name="medida" style="width: 400px;">
-
-                
-            </div>
-
-        </div>
+                <input type="button" class="btn" value="Cadastrar">
+            </form>
+        </div>        
     </div>
     
 </body>
