@@ -42,7 +42,7 @@
                         </div>
                         <label for="" class="lab">Unidade de Medida (litros, metros, unidades)</label>
                         <input type="text" class="form-control" name="medida" style="width: 400px;">
-                        <label for="" class="lab">Preço com Venda</label>
+                        <label for="" class="lab">Preço com Venda</label><br>
                         <textarea class="txt_area"></textarea>                
                     </div>
 
