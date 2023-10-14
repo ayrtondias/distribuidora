@@ -46,7 +46,7 @@
   
 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFF112;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFF112; width: 100vw;">
   <div class="dropdown">
     <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #FFF112; border: none; color:black">
       <span class="navbar-toggler-icon"></span>
@@ -91,44 +91,168 @@
   </div>
 </nav>
 
-<h1 class="cat">PISOS E REVESTIMENTOS</h1>
-
-<div class="corpo"> 
-  <div class="subCat">
-    <ul class="textop">Sub-categorias
-
-      <li class="texcorpo">Porcelanato ()</li>
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-    </ul>
-    <br>
-    <ul class="textop">Marcas
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-      <li class="texcorpo"> ()</li>
-    </ul>
-  </div>              
-
-  <div class="card">
-  <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
-    <img class="imagem" src=".../100px180/" alt="Imagem do card">
-    <div class="descricao">
-      <label class="card_text">Nome do Produto</label>
-        <ul class="avaliacao">
-            <li class="star-icon ativo" data-avaliacao="1"></li>
-            <li class="star-icon" data-avaliacao="2"></li>
-            <li class="star-icon" data-avaliacao="3"></li>
-            <li class="star-icon" data-avaliacao="4"></li>
-            <li class="star-icon" data-avaliacao="5"></li>
-        </ul>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 20px;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 h-40" src="img/caroucel/dp_resized.png" alt="Primeiro Slide">
     </div>
-
+    <div class="carousel-item">
+      <img class="d-block w-100 h-40" src="img/caroucel/convert_resized.webp" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-40" src="img/caroucel/materiais-de-construcao-em-curitiba8_resized.jpg" alt="Terceiro Slide">
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
 </div>
+
+<h3>Promoções</h3>
+
+<div style="display: flex;">
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <span class="wish-icon" style="color: red;"><i class="fa fa-heart-o"></i></span>
+      <img class="imagem" src=".../100px180/" alt="Imagem do card">
+      <div class="descricao">
+        <label class="card_text">Nome do Produto</label>
+
+          <ul class="avaliacao">
+              <li class="star-icon ativo" data-avaliacao="1"></li>
+              <li class="star-icon" data-avaliacao="2"></li>
+              <li class="star-icon" data-avaliacao="3"></li>
+              <li class="star-icon" data-avaliacao="4"></li>
+              <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <div class="valores">
+            <label class="v_antigo"><s>R$ 399,90</s></label>
+            <label class="v_novo">R$ 299,90</label>
+            <label class="parcelas">10x de R$ 29,99</label>
+          </div>
+      </div>
+  </div>
+
+
+
+  </div>
+
+
     
 </body>
 </html>

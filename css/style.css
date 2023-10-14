@@ -2,11 +2,14 @@ body{
     margin: 0;
     width: 100vw;
     background: #D9D9D9;
-
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
 }
 .topo{
     display: flex;   
     background: #FFF112;
+    width: 100vw;
 }
 
 .logo{
@@ -74,7 +77,6 @@ body{
     height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
 }
 .imagem{
@@ -82,9 +84,10 @@ body{
     width: 225px;
     height: 225px;
     margin-top: 15px;
+    margin-left: 15px;
 }
 .card_text{
-    margin-left: -50px;
+    margin-left: 5px;
     margin-top: 10px;
     font-family: 'Inter';
     font-size: 18px;
@@ -94,14 +97,13 @@ body{
 
 .avaliacao{
     display: flex;
-    padding: 0px 0px 0px 0px; 
 }
 .star-icon{
     list-style-type: none;
     border: 1px solid #fff;
     cursor: pointer;
     color: #ffe500;
-    font-size: 32px;
+    font-size: 28px;
 }
 .star-icon::before{
     content: "\2605";
@@ -116,6 +118,23 @@ body{
     content: "\2606";
 }
 
-
+.v_antigo{
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.v_novo{
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+}
+.parcelas{
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.valores{
+    display: flex;   
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
 
 
