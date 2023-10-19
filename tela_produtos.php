@@ -295,6 +295,181 @@
           </div>
       </div>
 
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8  align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8  align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8  align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8  align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8 align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-3 col-md-6 col-sm-8 align-items-stretch">
+          <div class="card text-left bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" height="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+            </a>
+
+            <img class="card-img-top" src=".../100px180/" alt="Imagem do card">
+
+            <div class="descricao">
+              <label class="card_text">Nome do Produto</label>
+
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <div class="valores">
+                <label class="v_antigo"><s>R$ 399,90</s></label>
+                <label class="v_novo">R$ 299,90</label>
+                <label class="parcelas">10x de R$ 29,99</label>
+              </div>
+            </div>
+          </div>
+      </div>
+
       
       
           
