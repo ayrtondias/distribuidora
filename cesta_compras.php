@@ -46,16 +46,19 @@
             <label class="txt_titulo2" style="margin-left: 100px;">R$ XX,XX</label>
 
             <div class="cep">
-                <input type="text" class="cep_txt" placeholder="Digite seu CEP">
+                <input type="number" class="cep_txt" placeholder="Digite seu CEP">
                 <button class="btn3" >CALCULAR</button>
             </div>
+            <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" style="margin-left: 20px;" target="_blank">Não sabe seu CEP?</a>
+            <br>
 
             <label for="" style="margin-top: 50px; margin-left: 10px;">Cupom de desconto</label>
             <div class="cep" style="margin-top: 0; ">
-                <input type="text" class="cep_txt" placeholder="Digite seu CEP">
+                <input type="text" class="cep_txt" placeholder="">
                 <button class="btn3" >CALCULAR</button>
             </div>
-            <br>
+            
+            
             
             <label class="total" style="margin-left: 10px;">TOTAL</label>
             <label class="total" style="margin-left: 100px;">R$ XX,XX</label>
