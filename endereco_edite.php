@@ -14,37 +14,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php 
-    include("logica-usuario.php");
-
-    
-    if(isset($_SESSION["success"])) { ?>
-        <p class="alert-success"><?=$_SESSION["success"]?></p>
-    <?php }
-
-    unset($_SESSION["success"]);
-
-    if(isset($_SESSION["danger"])) { ?>
-        <p class="alert-danger"><?=$_SESSION["danger"]?></p>
-    <?php } ?>
-
-    <?php
-    unset($_SESSION["danger"]); //não mostrar o alerta de "não poder acessar" a pagina home.
-
-    if(usuarioEstaLogado()){
-    ?>
-    
-
     <div class="topo">
-        <a href="index.php">
-            <img class="logo" src="img/dp.png">    
-        </a>  
+      <img class="logo" src="img/dp.png">      
     </div>
-
-
     <div class="corpo">
         <div class="opcoes">
-        <div class="btn_opcoes">
+            <div class="btn_opcoes">
                 <a href="minha_conta.php" style="color: black;">
                     <img class="icones" src="img/icones/172628_user_male_icon.png" alt="">
                     Minha conta
@@ -78,21 +53,37 @@
                 </a>
             </div>
 
-        </div>
 
-        <div class="tela">            
-            
+        </div>
+        <div class="tela">
+            <h2>Endereços</h2>
+            <hr class="linha">
+
+            <a href="" style="margin-left: 20px;">+ Cadastrar novo endereço</a>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">                
+                        <div class="ende">
+                            <h5 class="text-center">Nome do proprietário do endereço</h5>
+                            <hr class="linha2">
+                            <label style="margin-left: 10px;" for="">avenida, rua, alameda e numero da casa</label><br>
+                            <label style="margin-left: 10px;" for="">Bairro, cidade e estado</label><br>
+                            <label style="margin-left: 10px;" for="">CEP:</label><br>
+                            <input style="margin-left: 10px;" type="checkbox" id="vermelho" name="end_principal" value=""> Endereço principal
+                            <div class="btn">
+                                <a class="btnA" href="">Editar</a>
+                                <a class="btnB" href="">Excluir</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>  
     </div>
-
-    <?php }
-    else { 
-        header('Location: login.php');
-    exit();
-
-        ?>
-
-    <?php } ?>
 
     
 </body>

@@ -36,6 +36,12 @@ body{
     width: 48px;
     height: 48px;
 }
+#icn{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 48px;
+    width: 48px
+}
 .tela{
     margin-top: 20px;
     margin-left: 20px;

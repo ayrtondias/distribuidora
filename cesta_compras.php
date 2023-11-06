@@ -14,8 +14,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<?php 
+    include("logica-usuario.php");
+
+    
+    if(isset($_SESSION["success"])) { ?>
+        <p class="alert-success"><?=$_SESSION["success"]?></p>
+    <?php }
+
+    unset($_SESSION["success"]);
+
+    if(isset($_SESSION["danger"])) { ?>
+        <p class="alert-danger"><?=$_SESSION["danger"]?></p>
+    <?php } ?>
+
+    <?php
+    unset($_SESSION["danger"]); //não mostrar o alerta de "não poder acessar" a pagina home.
+
+    if(usuarioEstaLogado()){
+    ?>
+
     <div class="topo">
-      <img class="logo" src="img/dp.png">      
+        <a href="index.php">
+            <img class="logo" src="img/dp.png">   
+        </a>
+         
     </div>
     <label class="txt_inicio">Minha cesta</label>
 
@@ -74,6 +98,15 @@
         </div>
 
     </div>
+
+    <?php }
+    else { 
+        header('Location: login.php');
+    exit();
+
+        ?>
+
+    <?php } ?>
 
     
 </body>

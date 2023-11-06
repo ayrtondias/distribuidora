@@ -34,14 +34,63 @@
 </head>
 <body>
     <div class="topo">
-      <img class="logo" src="img/dp.png">
-      
+      <a href="index.php">
+        <img class="logo" src="img/dp.png">
+      </a>
         <div class="search-box">
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
                 <img src="img/icones/search.png" class="search-icon" alt="">
             </form>
         </div>
+
+        <a href="minha_conta.php" style="display: grid; color: black;">
+            <img id="icn" src="img/icones/172628_user_male_icon.png" alt="" style="margin-left: 20px;
+            margin-top: 20px;
+            height: 48px;
+            width: 48px">
+            <label class="text-center" style="margin-left: 15px;">Conta</label>
+          </a>
+          
+          <a href="cesta_compras.php" style="display: grid; color: black;">
+            <img id="icn" src="img/icones/9245770_business_store_buy_online_e_icon.png" alt="" style="margin-left: 20px;
+            margin-top: 20px;
+            height: 48px;
+            width: 48px">
+            <label style="margin-left: 15px;">Carrinho</label>
+          </a>
+
+          <?php
+           include("logica-usuario.php");
+
+    
+           if(isset($_SESSION["success"])) { ?>
+
+           <?php }
+       
+           unset($_SESSION["success"]);
+       
+           if(isset($_SESSION["danger"])) { ?>
+           <?php } ?>
+       
+           <?php
+           unset($_SESSION["danger"]); //não mostrar o alerta de "não poder acessar" a pagina home.
+       
+           if(usuarioEstaLogado()){
+          ?>
+
+          <a href="logout.php" style="display: grid; color: black;">
+            <img src="img/icones/logout_kashifarif_exit_out_close_icon.png"  height="48px" width="48px" 
+            style="margin-left: 25px; 
+            margin-top: 25px; 
+            height: 40px; 
+            width: 40px">
+            <label for="" style="margin-left: 25px;">Sair</label>
+          </a>
+
+          <?php
+            } 
+            ?>
     </div>
   
 
@@ -91,7 +140,10 @@
   </div>
 </nav>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 20px;">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 20px;
+    margin-left: 300px;
+    height: 800px;
+    width: 1500px">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

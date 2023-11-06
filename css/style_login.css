@@ -22,7 +22,7 @@ body{
     height: 700px;
 }
 
-.form-control{
+.form-control{    
     margin-top: 40px;
     border-radius: 50px;
     width: 500px;
@@ -31,6 +31,7 @@ body{
 
 .btnLogin{
     margin-top: 40px;
+    margin-left: 100px;
     border-radius: 50px;
     border: none;
     width: 300px;

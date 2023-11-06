@@ -11,20 +11,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-
-      <img class="logo" src="img/dp.png">
+        <a href="index.php">
+            <img class="logo" src="img/dp.png">
+        </a>
+      
 
       <div class="div_tela">
-        <h1 style="color: #0D90C5; margin-top: 20px;">Entrar</h1>
+
+      <form method="POST" action="acessoLogin.php">
+        <h1 class="text-center" style="color: #0D90C5; margin-top: 20px;">Entrar</h1>
         <div class="form-group mb-2">
             <input type="text" class="form-control" name="email" style="margin-top: 100px;" placeholder="E-mail">
             <input type="password" class="form-control" name="senha" placeholder="Senha">            
+            <input type="submit" class="btnLogin" value="Entrar">
         </div>
-        <input type="button" class="btnLogin" value="Entrar">
-
         
+
+        </form>
+
             <label class="labCad">Ainda não possui cadastro em nosso site?</label>
             <a type="button" class="btnCad" href="cad_cliente.php">Cadastre-se</a>
+      
         
         
       </div>
