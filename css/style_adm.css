@@ -16,6 +16,12 @@ body{
     width: 300px;
     height: 150px;
 }
+.div_tela{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
 .menu_lateral{
     position: absolute;
     width: 300px;

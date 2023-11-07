@@ -28,7 +28,7 @@
                 <h1>Cadastrar produtos</h1>
                 <hr class="linha">
 
-                <div class="div_tela" style="display: flex;">
+                <div class="div_tela" >
                     <div class="form-group mb-2">
                         <label for="" class="lab">Nome</label>
                         <input type="text" class="form-control" name="nome" style="width: 400px;">

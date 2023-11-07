@@ -30,7 +30,7 @@
         </form>
 
             <label class="labCad">Ainda não possui cadastro em nosso site?</label>
-            <a type="button" class="btnCad" href="cad_cliente.php">Cadastre-se</a>
+            <a type="button" class="btnCad" href="cadastrar.php">Cadastre-se</a>
       
         
         
